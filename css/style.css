@@ -5,6 +5,7 @@
 * {
     font-family: 'Source Sans Pro', sans-serif;
 }
+
 h1,
 h2,
 h3,
@@ -30,6 +31,7 @@ header {
     color: #fffefe;
     position: relative;
     padding: 0;
+    font-size: 18px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -676,7 +678,6 @@ padding: 70px 0;
 
 .contact_form form textarea{
     background-color: transparent;
-    height: 68%;
 }
 .contact_form form input[type="text"]:focus{
     box-shadow: none;
