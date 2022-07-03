@@ -671,8 +671,24 @@ padding: 70px 0;
 .contact_form form input{
     background-color: transparent;
 }
+
 .contact_form form textarea{
     background-color: transparent;
+}
+.contact_form form input[type="text"]:focus{
+    box-shadow: none;
+    background-color: transparent;
+    color: #eaeaea;
+}
+.contact_form form input[type="email"]:focus{
+    box-shadow: none;
+    background-color: transparent;
+    color: #eaeaea;
+}
+.contact_form form textarea:focus{
+    box-shadow: none;
+    background-color: transparent;
+    color: #eaeaea;
 }
 .contact_form form input[type="submit"]{
     background: #008ed6;
