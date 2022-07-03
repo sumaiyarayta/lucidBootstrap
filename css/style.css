@@ -715,8 +715,9 @@ footer{
 .social_link ul {
     display: flex;
     list-style: none;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 15px;
+    width: 85%;
 }
 
 .social_link ul li {
